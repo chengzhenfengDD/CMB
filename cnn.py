@@ -84,6 +84,8 @@ def forward_propagation(X, parameters):
     Z5 = tf.contrib.layers.fully_connected(Z4,2, activation_fn = )
 
 
+# In case we need to train
+
 def model(X_train, Y_train, X_test, Y_test, learning_rate = 0.009,
           num_epochs = 100, minibatch_size = 64, print_cost = True):
     """
